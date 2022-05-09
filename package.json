@@ -1,6 +1,7 @@
 {
   "name": "projeto--ageda",
   "version": "0.1.0",
+  "homepage": "task-list/",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.18",
