@@ -18,7 +18,7 @@ export default function NoteList({
         </div>
         <div className="note--icons buttons">
           <FaTrashAlt onClick={() => deleteNote(id)} />
-          <FaSync onClick={() => updateNote(id)} />
+          {selected && <FaSync onClick={() => updateNote(id)} />}
         </div>
       </div>
     </div>
