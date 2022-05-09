@@ -73,8 +73,6 @@ export default function App() {
       }))
   }
 
-  console.log(notes)
-
   const eachNote = notes.map((noteMapped) => (
     <NoteList
       key={noteMapped.id}
