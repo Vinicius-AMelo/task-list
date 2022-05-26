@@ -1,8 +1,9 @@
 :root {
-  --body--color: #c5c5c5;
+  --body--color1: #5f2c82;
+  --body--color2: #49a09d;
   --app--color: #ffffff;
-  --task--color: #FF9933;
-  --nav--color: #0099DD;
+  --task--color: #7609E8;
+  --nav--color: #4917FF;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  background-color: var(--body--color);
+  background-image: linear-gradient(to right, var(--body--color1), var(--body--color2));
 }
 
 .main--app {
@@ -41,6 +42,13 @@ body {
   justify-content: space-evenly;
 }
 
+.main--notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 input {
   height: 35px;
   width: 400px;
@@ -52,6 +60,7 @@ input {
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
+  width: 540px;
 }
 
 .note {
@@ -76,4 +85,5 @@ input {
   color: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 10px 2px;
+  border-radius: 6px;
 }
