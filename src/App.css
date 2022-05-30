@@ -2,8 +2,8 @@
   --body--color1: #5f2c82;
   --body--color2: #49a09d;
   --app--color: #ffffff;
-  --task--color: #7609E8;
-  --nav--color: #4917FF;
+  --nav--color: #7609E8;
+  --task--color: #49a09d;
 }
 
 * {
@@ -14,11 +14,14 @@
 }
 
 body {
-  background-image: linear-gradient(to right, var(--body--color1), var(--body--color2));
+  background-color: #e5e5e5;
+  /* background-image: linear-gradient(to right, var(--body--color1), var(--body--color2)); */
 }
 
 .main--app {
   background-color: var(--app--color);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
   max-width: 550px;
   margin: 50px auto;
   padding-bottom: 30px;
@@ -27,8 +30,9 @@ body {
 }
 
 .main--nav {
-  padding: 10px 0;
   background-color: var(--nav--color);
+
+  padding: 10px 0;
 }
 
 .main--nav>h1 {
@@ -84,6 +88,7 @@ input {
   background-color: var(--task--color);
   color: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 10px 2px;
   border-radius: 6px;
+
+  margin: 10px 2px;
 }
