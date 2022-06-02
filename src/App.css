@@ -95,8 +95,15 @@ input {
 
 
 @media(max-width:570px) {
-  .main--app, .selected, input, .notes {
-    width: 70%;
+  .main--app {
+    width: 350px;
+  }
 
+  .notes {
+    width: 340px;
+  }
+
+  input {
+    width: 255px;
   }
 }
